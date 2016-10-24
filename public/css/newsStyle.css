@@ -1,0 +1,43 @@
+.header
+{
+	white-space: nowrap;
+	display: inline;
+	height: 83px;
+}
+.lImg
+{
+	width: 320px;
+	height: 320px;
+	float: left;
+	margin: 7px 7px 7px 0;
+}
+.news1
+{
+	width: 900px;
+	margin-top: 20px;
+}
+.twitter-bubble {
+	position: relative;
+	width: 200px;
+	padding: 19px;
+	background: #96DDFF;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: #474747;
+	display: inline-block;
+}
+
+.twitter-bubble:after
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 11px 0;
+	border-color: #96DDFF transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	bottom: -15px;
+	left: 111px;
+}

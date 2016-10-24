@@ -1,0 +1,1 @@
+<?php DeleteElementById($params['id']);
